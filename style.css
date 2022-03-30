@@ -1,0 +1,56 @@
+body{
+    background: rgb(128, 9, 9);
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+#titulo {
+    color: rgba(255, 255, 255, 0.788);
+    margin:10px auto;
+    padding:10px;
+    text-align: center;
+    font-size: 3rem;
+   
+}
+.container-principal{
+    border: 1px solid #fff;
+    border-radius :20px;
+    box-shadow : 10px 10px 10px 2px rgba(0, 0, 0, 0.616);
+    width:400px;
+    margin:20px auto; /*centraliza o container*/
+    padding:20px;
+    text-align:center;
+    background : rgba(0, 0, 0, 0.432)
+  }
+  
+.container{ 
+    color:#fff; 
+    font-size:50px; 
+    margin:10px auto;/*centraliza os eleentos dentro do container*/
+    border : 10px solid  rgb(128, 9, 9);
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+}
+  
+.tempo{
+    margin-top:70px;
+    z-index : 1;
+    position: relative;
+}
+  
+#botao button { 
+    background:rgb(128, 9, 9);
+    box-shadow: 0px 0px 15px 2px rgb(128, 9, 9);
+    border: 1px solid #ffff; 
+    color: #fff;  
+    cursor: pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 50px;
+    border-radius : 50px;
+}
